@@ -57,11 +57,9 @@ return 0; // Retorna falso caso a bag não possua elementos
 int search(Bag *bag, int e)
 {
    for(int contador = 0; contador <= bag->n; contador++)
-  {
     if(e == bag->data[contador]){
         printf("O Elemento %i que foi procurado, está alocado na posição [%d]\n\n",bag->data[contador],contador);
        return 1; //Pesquisa por um elemento na bag e mostra onde foi alocado
-    }
     }
   
 return 0;
